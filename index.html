@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>W100 Multi Dice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="selector">
+      <button class="sel-btn" data-count="1">1</button>
+      <button class="sel-btn" data-count="2">2</button>
+      <button class="sel-btn active" data-count="3">3</button>
+      <button class="sel-btn" data-count="4">4</button>
+      <button class="sel-btn" data-count="5">5</button>
+      <button class="sel-btn" data-count="6">6</button>
+      <button class="sel-btn sel-w100" data-count="100">w100</button>
+    </div>
+    <div class="dice-row" id="diceRow"></div>
+    <div class="result" id="result">choose your dice</div>
+    <div class="result-number" id="resultNumber"></div>
+    <button class="roll-btn" id="rollBtn">Roll All</button>
+    <div class="history" id="history">
+      <h3>Last 10</h3>
+      <div class="history-list" id="historyList"></div>
+      <button class="clear-btn" id="clearBtn">Clear</button>
+    </div>
+    <div class="credit">Dice Sound by u_qpfzpydtro</div>
+  </div>
+  <script src="script-multi.js"></script>
+</body>
+</html>
