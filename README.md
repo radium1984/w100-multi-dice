@@ -12,14 +12,17 @@ A browser-based dice roller for pen and paper games. Roll 1–6 classic six-side
 
 ## Usage
 
-Open `index.html` in a browser. Click the dice or press "Roll All".
+Download all Files, put them into a Folder and open `index.html` in a browser. Click the dice or press "Roll All".
 
 ### Files
+
+### Requirements
+
+Only a Browser that can handle JS. (Chrome, Firefox, etc.)
 
 | File | Description |
 |------|-------------|
 | `index.html` | Multi-dice page (d6/d100 selector) |
-| `dice-6.html` | Single six-sided die page |
 | `style.css` | Styles |
 | `script-multi.js` | Multi-dice logic |
 | `script.js` | Single-die logic |
