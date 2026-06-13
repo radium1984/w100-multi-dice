@@ -152,7 +152,7 @@ function initD100() {
   diceRow.innerHTML = '';
   const el = document.createElement('div');
   el.className = 'dice-d100';
-  el.textContent = '00';
+  el.textContent = '—';
   diceRow.appendChild(el);
 }
 
